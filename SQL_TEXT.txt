@@ -1,0 +1,18 @@
+CREATE TABLE HOTEL_MAN( 
+	order_number NUMBER(7) PRIMARY KEY, 
+	drink NUMBER, burger NUMBER, 
+	cherry NUMBER, 
+	nacho_fries NUMBER, 
+	pizza NUMBER, 
+	biscuit NUMBER, 
+	roll NUMBER, 
+	tea NUMBER, 
+	cost_ NUMBER, 
+	service_cost NUMBER, 
+	tax NUMBER, 
+	sub_total NUMBER, 
+	total NUMBER, 
+	date_rec VARCHAR2(20), 
+	time_rec VARCHAR2(20), 
+	extras VARCHAR2(132)
+);
